@@ -1,0 +1,16 @@
+Source: patchelf
+Section: utils
+Priority: optional
+Maintainer: Sebastian Parschauer <s.parschauer@gmx.de>
+Build-Depends: aegis-builder (>= 1.4), debhelper (>=5)
+Standards-Version: 3.8.2
+
+Package: patchelf
+Architecture: any
+Replaces: patchelf
+Provides: patchelf
+Description: patchelf - Modify ELF files
+ PatchELF  is a simple utility for modifying existing ELF executables and libraries.  It can
+ change the dynamic loader ("ELF interpreter") of executables and change the RPATH  of  exe-
+ cutables and libraries.
+ .
